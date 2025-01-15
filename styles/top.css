@@ -1,0 +1,145 @@
+.top-section {
+    position: relative;
+    margin-bottom: 4rem;
+}
+
+
+.top-section .top-section-image {
+    background: rgb(200, 200, 200);
+    height: calc(-30rem + 100vh);
+    min-height: 42rem;
+    max-height: 57rem;
+    width: 100%;
+    position: relative;
+    overflow: hidden;
+}
+
+.top-section-image .top-image {
+    position: absolute;
+    top: 0px;
+    left: 0px;
+    height: 100%;
+    width: 100%;
+    object-fit: cover;
+    transform: scale(1.1);
+}
+
+.top-section .top-section-container {
+    position: absolute;
+    bottom: calc(50% - 11.1rem);
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+}
+
+.top-section-container .zomato-logo {
+    background: transparent;
+    height: 6rem;
+    max-height: none;
+    width: 30rem;
+    position: relative;
+}
+
+.zomato-logo .zomato-image {
+    position: absolute;
+    top: 0px;
+    left: 0px;
+    height: 100%;
+    width: 100%;
+    object-fit: contain;
+}
+
+.top-section-container .top-heading {
+    margin-top: 3rem;
+    color: white;
+    text-align: center;
+    font-size: 3.6rem;
+}
+
+.descr {
+    font-size: 4.4rem;
+    line-height: 1.2;
+    font-weight: 400;
+    color: rgb(28, 28, 28);
+    margin: 0px;
+}
+
+.top-section-container .top-heading .city {
+    font-weight: 500;
+    font-size: 36px;
+    line-height: 48px;
+}
+
+.top-section .top-section-container .search-container {
+    border-width: 0px;
+    margin-top: 3rem;
+}
+
+
+.top-section-container .search-container .search {
+    display: flex;
+    align-items: center;
+    height: 5.4rem;
+    background: rgb(255, 255, 255);
+    border-radius: 0.8rem;
+    box-shadow: rgba(28, 28, 28, 0.08) 0px 2px 8px;
+    border: 1px solid rgb(232, 232, 232);
+}
+
+.search-container .search .location {
+    display: flex;
+    justify-content: space-around;
+    position: relative;
+    height: 100%;
+    width: max-content;
+    border-radius: 0.8rem;
+    padding: 0px 1rem;
+    align-items: center;
+}
+
+.logo {
+    display: flex;
+    align-items: center;
+    cursor: inherit;
+}
+
+.location-input {
+    border: none;
+    font-size: 1.4rem;
+    margin: 0px 1rem 0px 0.5rem;
+}
+
+.dropdown-logo {
+    cursor: pointer;
+}
+
+.search .search-border {
+    width: 0rem;
+    height: 2rem;
+    border: 0.05rem solid rgb(207, 207, 207);
+}
+
+.search .search-bar {
+    border-radius: 0.8rem;
+    width: 53rem;
+    height: 100%;
+    display: flex;
+    position: relative;
+}
+
+.search .search-bar .search-logo {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 6rem;
+    margin: -1px -0.6rem -1px -1px;
+}
+
+.search-input {
+    border: none;
+    font-size: 1.4rem;
+    width: 100%;
+    border-radius: 0.8rem;
+}

@@ -1,0 +1,96 @@
+.header {
+    width: 100%;
+    max-width: 100%;
+    display: block;
+    position: absolute;
+    height: 7.2rem;
+    z-index: 10;
+    justify-content: space-between;
+    align-items: center;
+    top: 0px;
+    background-color: transparent;
+}
+
+.navi {
+    width: 100%;
+    max-width: 110rem;
+    padding-right: 0px;
+    margin: 0px auto;
+    display: flex;
+    flex-wrap: nowrap;
+    height: 100%;
+    justify-content: space-between;
+    align-items: center;
+    position: relative;
+    z-index: 4;
+
+}
+.navi span{
+    font-size: 1.3em;
+}
+
+.nav-list {
+    width: 100%;
+    list-style: none;
+    max-width: 100%;
+    height: 72px;
+    flex-wrap: nowrap;
+    background: transparent;
+    align-items: center;
+    display: flex;
+    justify-content: flex-end;
+    opacity: 1;
+    padding: 1.7rem 0px;
+    margin: 0px;
+}
+
+.na-left {
+    padding-bottom: 1rem;
+    border-radius: 0px;
+    box-sizing: border-box;
+    border-style: solid;
+    border-color: transparent;
+    border-width: 0px 0px 0.2rem;
+}
+
+.nav-left-text {
+    text-decoration: none;
+    font-size: 1.4rem;
+    position: absolute;
+    left: 0px;
+    cursor: pointer;
+    max-width: 35rem;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+    display: flex;
+    align-items: center;
+    color: white;
+    font-weight: 500;
+    top: 50%;
+    padding-bottom: 1rem;
+}
+
+.nav-list > * {
+    margin-right: 2rem;
+}
+.nav-right {
+    padding-bottom: 0px;
+    border-radius: 0px;
+    box-sizing: border-box;
+    border-style: solid;
+    border-color: transparent;
+    border-width: 0px 0px 0.2rem;
+}
+
+.nav-right-text {
+    font-size: 1.8rem;
+    line-height: 1.5;
+    text-align: right;
+    font-weight: 300;
+    color: white;
+    cursor: pointer;
+    border-radius: 0.6rem;
+    background: transparent;
+    padding: 0.8rem ;
+}

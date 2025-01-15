@@ -1,0 +1,42 @@
+.explore-options{
+    width: 110rem;
+    margin: auto;
+    margin-bottom: 0rem;
+    padding: 5rem 0;
+}
+
+.explore-heading{
+    margin: 0px 0px 3rem;
+    color: rgb(54,54,54);
+    font-size: 3rem;
+    font-weight: 500;
+}
+
+.accordions-list{
+    display: flex;
+    flex-direction: column;
+
+}
+
+.accordion-title{
+    font-size: 2rem;
+    font-weight: 200;
+}
+.accordion{
+    display: flex;
+    flex-direction: row;
+    border: 3px solid rgb(232,232,232);
+    margin-bottom: 2rem;
+    padding: 2rem 2.4rem;
+    border-radius: 0.8rem;
+    cursor: pointer;
+    justify-content: space-between;
+    align-items: center;
+    font-size: 2rem;
+    font-weight: 200;
+
+}
+
+.accordion i{
+    font-size: 1.5rem;
+}
